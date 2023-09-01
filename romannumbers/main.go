@@ -40,7 +40,7 @@ func main() {
 	}
 
 	// Initialize a slice to hold the Roman numeral characters
-	chars := make([]string, 0)
+	chars := []string{}
 
 	// Initialize a variable to store the remaining value to be converted
 	remaining := nbr
